@@ -1054,10 +1054,10 @@ function showQuestion() {
 function Judgment() {
     changescene(scecegame, next);
     if (JSON.stringify(question[questionnum].a) == JSON.stringify(answers)) {
-        next.innerHTML = "<p style='font-size:3em;color:#008000;'>バッチリ😊です！</p><button onclick='nextquestion()'>次に進みます　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　！！！！！！！</button>";
+        next.innerHTML = "<p style='font-size:3em;color:#008000;'>バッチリ😊　です！</p><button onclick='nextquestion()'>次に進みます　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　！！！！！</button>";
 
     } else {
-        next.innerHTML = "<p style='font-size:3em;color:#008080;'>ナイスです！</p><button onclick='nextquestion()'>次に進みます　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　！！！！！！！</button>";
+        next.innerHTML = "<p style='font-size:3em;color:#008080;'>ナイスです！</p><button onclick='nextquestion()'>次に進みます　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　！！！！！</button>";
     }
 }
 
