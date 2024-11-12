@@ -265,15 +265,15 @@ const question = [
         a: ["こ", "う", "ち"]
     },
     {
-        q: "市",
+        q: "日本の市",
         a: ["た", "じ", "み"]
     },
     {
-        q: "市",
+        q: "日本の市",
         a: ["な", "ご", "や"]
     },
     {
-        q: "市",
+        q: "日本の市",
         a: ["こ", "う", "べ"]
     },
     {
@@ -327,10 +327,6 @@ const question = [
     {
         q: "写真を撮る",
         a: ["カ", "メ", "ラ"]
-    },
-    {
-        q: "時間を見る",
-        a: ["と", "け", "い"]
     },
     {
         q: "離れた人と話す",
@@ -565,12 +561,8 @@ const question = [
         a: ["ク", "イ", "ズ"]
     },
     {
-        q: "無色透明",
+        q: "吸ったり吐いたり",
         a: ["く", "う", "き"]
-    },
-    {
-        q: "編み物で使う",
-        a: ["け", "い", "と"]
     },
     {
         q: "火事やタバコで発生",
@@ -960,6 +952,10 @@ const question = [
         q: "湯を沸かす",
         a: ["や", "か", "ん"]
     },
+    {
+        q: "野菜料理",
+        a: ["サ", "ラ", "ダ"]
+    },
 ];
 
 //top画面
@@ -1054,10 +1050,10 @@ function showQuestion() {
 function Judgment() {
     changescene(scecegame, next);
     if (JSON.stringify(question[questionnum].a) == JSON.stringify(answers)) {
-        next.innerHTML = "<p style='font-size:3em;color:#008000;'>バッチリ😊　です！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！</button>";
+        next.innerHTML = "<p style='font-size:3em;color:#008000;'>バッチリ😄　です！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！</button>";
 
     } else {
-        next.innerHTML = "<p style='font-size:3em;color:#008080;'>ナイスです！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！</button>";
+        next.innerHTML = "<p style='font-size:3em;color:#008080;'>ナイス😊　　です！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！</button>";
     }
 }
 
