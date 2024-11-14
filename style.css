@@ -50,3 +50,4 @@ p {
 #btn {/*【HTML + CSS】テキストやボタンを右寄せにする方法（6パターン）（ブックマーク）を応用して追加*/
 	text-align: right;
 }
+audio { width: 280px; height: 10px; margin: 0.1px;}
