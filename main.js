@@ -960,6 +960,10 @@ const question = [
         q: "夏の風物詩",
         a: ["は", "な", "び"]
     },
+    {
+        q: "山芋をすりおろした食べ物",
+        a: ["と", "ろ", "ろ"]
+    },
 ];
 
 //top画面
@@ -1057,7 +1061,7 @@ function Judgment() {
         next.innerHTML = "<p style='font-size:3em;color:#008000;'>バッチリ😄　です！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！</button>";
 
     } else {
-        next.innerHTML = "<p style='font-size:3em;color:#008080;'>ナイス😊　　です！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！</button>";
+        next.innerHTML = "<p style='font-size:3em;color:#008080;'>オーケー😊　です！</p><button onclick='nextquestion()'>次に　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　進みます！</button>";
     }
 }
 
